@@ -21,7 +21,7 @@
   "USERNAME": "aliyun"
 }
 ```
-6. run 'npm run start', it's done
+6. run `npm run start`, it's done
 
 ## At last
 📧If you have any questions, u can submit any ideas as GitHub issues.
