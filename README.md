@@ -12,8 +12,8 @@
   "USERNAME": "username"
 }
 ```
-4. input ur aliYun docker registry username and password.
-5. If u dont have Nginx to proxy request, u can set port as 80.For example  
+4. input ur aliYun docker registered username and password.
+5. If u dont have Nginx to proxy request, u can set port to 80.For example  
 ```js
 "env": {
   "LISTEN_PORT": "80",
