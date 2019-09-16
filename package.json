@@ -1,0 +1,13 @@
+{
+  "name": "aliyun-docker-webhook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "pm2 start pm2.config.json --watch",
+    "start": "pm2 start pm2.config.json"
+  },
+  "keywords": [],
+  "author": "Shino161",
+  "license": "ISC"
+}

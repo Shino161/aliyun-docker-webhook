@@ -1,0 +1,13 @@
+{
+  "apps": [
+    {
+      "name": "aliyun-docker-webhook",
+      "script": "index.js",
+      "env": {
+        "LISTEN_PORT": "listen_port",
+        "PASSWORD": "password",
+        "USERNAME": "username"
+      }
+    }
+  ]
+}
