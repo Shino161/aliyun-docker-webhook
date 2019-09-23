@@ -4,6 +4,7 @@
       "name": "aliyun-docker-webhook",
       "script": "index.js",
       "env": {
+        "DOCKER_EXPOSE":"80:80",
         "LISTEN_PORT": "listen_port",
         "PASSWORD": "password",
         "USERNAME": "username"
