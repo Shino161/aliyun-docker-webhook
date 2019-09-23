@@ -7,6 +7,7 @@
 3. modify the pm2.config.json, just modify `env` option
 ```js
 "env": {
+  "DOCKER_EXPOSE":"80:80",
   "LISTEN_PORT": "listen_port",
   "PASSWORD": "password",
   "USERNAME": "username"
@@ -16,6 +17,7 @@
 5. If u dont have Nginx to proxy request, u can set port to 80.For example  
 ```js
 "env": {
+  "DOCKER_EXPOSE":"80:80",
   "LISTEN_PORT": "80",
   "PASSWORD": "123456",
   "USERNAME": "aliyun"
