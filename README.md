@@ -3,7 +3,7 @@
 
 ## How to use
 1. install node.js and pm2 globally (it's easy 😊)
-2. `git clone https://github.com/Shino161/aliyun-docker-webhook.git` && cd `aliyun-docker-webhook`
+2. `git clone https://github.com/Shino161/aliyun-docker-webhook.git` && `cd aliyun-docker-webhook`
 3. modify the pm2.config.json, just modify `env` option
 ```js
 "env": {
