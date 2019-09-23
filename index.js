@@ -27,7 +27,7 @@ http.createServer((req, res) => {
     dockerImage = 'registry.' + body.repository.region + '.aliyuncs.com/' + body.repository.repo_full_name + ':' + body.push_data.tag
     containerName = body.repository.name
     dockerRegistry = 'registry.' + body.repository.region + '.aliyuncs.com'
-    runCMD('sh', ['./run-docker.sh', dockerImage, containerName, dockerRegistry, dockerUsername, dockerPwd], (text)=> { console.log(text)})
+    runCMD('sh', ['./run-docker.sh', dockerImage, containerName, dockerRegistry, dockerUsername, dockerPwd, listenPort], (text)=> { console.log(text)})
   });
   res.end('aLIEz!')
 }).listen(listenPort);
